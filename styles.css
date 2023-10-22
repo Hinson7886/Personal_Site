@@ -1,0 +1,266 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(9, 131, 225);
+    margin: 0px;
+}
+
+section {
+    color: white;
+    /* margin-bottom: 20px; */
+}
+
+h1, h2{
+    /* margin-bottom: 20px; */
+    color: white;
+}
+
+/* hr{
+    margin-bottom: 20px;
+    margin-top: 20px;
+} */
+
+p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.home-box{
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.117);
+    padding: 20px;
+    border-radius: 30px;
+    border: 3px solid rgba(255, 255, 255, 0.262);
+}
+
+.home-box h1{
+    font-size: 40px;
+    color: white;
+    margin-top: -5px;
+}
+
+.home-box p{
+    font-size: 20px;
+    color: white;
+}
+
+.about-box{
+    /* border: 2px solid white; */
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.117);
+    border: 3px solid rgba(255, 255, 255, 0.262);
+    padding: 20px;
+    
+}
+
+.about-box p{
+    font-size: 18px;
+}
+
+.about-box hr{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.portfolio-box{
+    height: 300px;
+    font-size: 18px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.117);
+    border: 3px solid rgba(255, 255, 255, 0.262);
+    margin-bottom: 40px
+    ;
+}
+
+.portfolio-box p {
+    color: white;
+    margin-left: 20px;
+    
+}
+
+.portfolio-box h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    text-align: center;
+   /* margin: 0px; */
+    
+}
+
+.portfolio-box hr {
+    color: white;
+    margin-bottom: 20px;
+    
+}
+
+.garden{
+    height: 180px;
+    width: 300px;
+    border-radius: 30px;
+    display: inline;
+    float: right;
+    margin-right: 18px;
+}
+
+.painting{
+    height: 180px;
+    width: 300px;
+    border-radius: 30px;
+    display: inline;
+    float: left;
+    margin-left: 18px;
+    margin-right: 19px;
+}
+
+.photography{
+    height: 180px;
+    width: 300px;
+    border-radius: 30px;
+    display: inline;
+    float: right;
+    margin-right: 18px;
+    margin-left: 18px;
+}
+
+.monster{
+    height: 140px;
+    width: 220px;
+    border-radius: 30px;
+    display: inline;
+    float: right;
+    margin-right: 3px;
+    margin-bottom: 1px;
+    /* padding: 5px; */
+    
+}
+
+.drumming{
+    height: 140px;
+    width: 220px;
+    border-radius: 30px;
+    display: inline;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.photoshop{
+    height: 140px;
+    width: 220px;
+    border-radius: 30px;
+    display: inline;
+    float: right;
+    margin-right: 3px;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 10px;
+    background-color: rgb(62, 66, 69);
+    color: white;
+}
+
+.navbar .left {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar .right {
+    width: 400px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.navbar .right a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
+
+.navbar .right a:hover{
+    text-decoration: underline;
+    color: rgb(102, 167, 217);
+}
+
+.home-content{
+    background-color: rgb(41, 49, 208);
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 70px;
+    height: 80vh;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */    
+}
+
+.content{
+    background-color: rgb(41, 49, 208);
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 70px;
+    height: 130vh;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.flex-item {
+    flex: 1; 
+    padding: 10px;
+}
+
+.portrait {
+    height: 350px;
+    width: 350px;
+    border-radius: 30px;
+    display: inline;
+    float: right;
+    margin-right: 3px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 14px 10px;
+    height: 30px;
+    background-color: rgb(62, 66, 69);
+    
+}
+
+.footer a{
+    color: white;
+    vertical-align: auto;
+    margin-top: 20px;
+    /* display: block; */
+}
+
+.footer a:hover{
+    text-decoration: underline;
+    color: rgb(102, 167, 217);
+}
+
+.quote {
+    font-family: serif;
+    font-size: 33px;
+    text-align: center;
+    
+}
+
+.quote p {
+    margin-top: 150px;
+}
