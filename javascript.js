@@ -1,1 +1,1 @@
-alert('Hello, welcome to my website. Hope you enjoy your stay')
+console.log('Hello, welcome to my website. Hope you enjoy your stay')
