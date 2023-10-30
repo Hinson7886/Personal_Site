@@ -1,0 +1,12 @@
+Block 9: Unit 1 Career Simulation: Personal Website Pt I
+
+Monday, October 23, 2023
+4:51 PM
+
+Lessons learned from project include:
+
+*layout block elements with inline or inline block to move them on same line..can also use display flex to get result
+
+*try to remember what classes you're using and not repeat yourself
+
+*in order to get remote repo to set up have to be in wsl
